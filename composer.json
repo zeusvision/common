@@ -1,0 +1,58 @@
+{
+    "name": "zeus/common",
+    "description": "Common stuff for Zeus",
+    "keywords": [
+        "zeus",
+        "common"
+    ],
+    "homepage": "https://repositorios.artvisual.net/zeus-packages/common",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joan Morell",
+            "email": "j.morell@mail.zeus.vision",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "illuminate/contracts": "^6.0 || ^7.0",
+        "illuminate/http": "^6.0 || ^7.0",
+        "illuminate/support": "^6.0 || ^7.0",
+        "illuminate/validation": "^6.0 || ^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.1",
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zeus\\Common\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zeus\\Common\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zeus\\Common\\ZeusCommonServiceProvider"
+            ],
+            "aliases": {
+                "Common": "Zeus\\Common\\ZeusCommonFacade"
+            }
+        }
+    }
+}
