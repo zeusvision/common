@@ -1,9 +1,9 @@
 <?php
 
-namespace Zeus\Common\Tests\Factory;
+namespace ZeusVision\Common\Tests\Factory;
 
 use PHPUnit\Framework\TestCase;
-use Zeus\Common\Factory\AutoIncrement;
+use ZeusVision\Common\Factory\AutoIncrement;
 
 class AutoIncrementTest extends TestCase
 {

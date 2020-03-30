@@ -1,11 +1,11 @@
 <?php
 
-namespace Zeus\Common;
+namespace ZeusVision\Common;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Zeus\Common\Skeleton\SkeletonClass
+ * @see \ZeusVision\Common\Skeleton\SkeletonClass
  */
 class ZeusCommonFacade extends Facade
 {

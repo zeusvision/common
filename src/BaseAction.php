@@ -1,6 +1,6 @@
 <?php
 
-namespace Zeus\Common;
+namespace ZeusVision\Common;
 
 use Illuminate\Support\Facades\DB;
 

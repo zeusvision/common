@@ -1,6 +1,6 @@
 <?php
 
-namespace Zeus\Common\Factory;
+namespace ZeusVision\Common\Factory;
 
 class AutoIncrement
 {

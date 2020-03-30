@@ -1,11 +1,11 @@
 {
-    "name": "zeus/common",
+    "name": "zeusvision/common",
     "description": "Common stuff for Zeus",
     "keywords": [
         "zeus",
         "common"
     ],
-    "homepage": "https://repositorios.artvisual.net/zeus-packages/common",
+    "homepage": "https://github.com/zeusvision/common",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Zeus\\Common\\": "src"
+            "ZeusVision\\Common\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zeus\\Common\\Tests\\": "tests"
+            "ZeusVision\\Common\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Zeus\\Common\\ZeusCommonServiceProvider"
+                "ZeusVision\\Common\\ZeusCommonServiceProvider"
             ],
             "aliases": {
-                "Common": "Zeus\\Common\\ZeusCommonFacade"
+                "Common": "ZeusVision\\Common\\ZeusCommonFacade"
             }
         }
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Zeus\Common\Contracts;
+namespace ZeusVision\Common\Contracts;
 
-use Zeus\Common\BaseRequest;
+use ZeusVision\Common\BaseRequest;
 
 interface Action
 {
