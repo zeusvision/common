@@ -12,7 +12,7 @@ Conjunto de clases o servicios comunes para todos los proyectos de Zeus
 You can install the package via composer:
 
 ```bash
-composer require zeus/common
+composer require zeusvision/common
 ```
 
 ## Package list
